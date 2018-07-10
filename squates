@@ -18,3 +18,4 @@ raise "No file" unless file
 set_number = get_num(file)
 line = time + " 10 squates #{set_number}"
 `echo #{line} >> #{file}` 
+puts line.green
