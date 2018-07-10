@@ -1,4 +1,12 @@
 #!/usr/bin/env ruby
-
+p "HI"
 require "colorize"
-puts "Hi".red
+require "date"
+
+date = DateTime.now
+time = date.strftime("%H:%M %d.%m.%Y")
+line = time + " 10 squates 01"
+
+file = ENV['SQUATES_FILE']
+p file
+`echo #{line} >> #{file}` if file
