@@ -15,3 +15,5 @@ Tool for logging training in CLI: `$ squates`
 
 ### TODO
 - `$ squates 20` save 20 squates in log file
+- Add daily task, and check procentage of it's impelemnting.
+- Add different types of tasks
