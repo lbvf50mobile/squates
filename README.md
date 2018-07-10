@@ -1,10 +1,13 @@
 ## Squates
 
-Tool for logging training in CLI: `$ squates`
+Tool for logging training in CLI: `$ squates`  
+
+* [Instalation](#instalation)  
+* [Usage](#usage) 
 
 ### Instalation
 - `$ echo "export SQUATES_FILE=<file_for_log>" >> ~/.bashrc`
-- `$ cp squates /usr/bin/squates`
+- `$ bash install.sh`
 
 ### Usage
 - `$ squates` save 10 squates file
