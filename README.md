@@ -11,8 +11,8 @@ Tool for logging training in CLI: `$ squates`
 - `$ bash install.sh`
 
 ### Usage
-- `$ allsquates` get 25 new squates
-- `$ squates` save 10 squates file
+- `$ allsquates` get log of last 25 rows from the file.
+- `$ squates` save 10 squates row in the file file
 
 ### TODO
 - `$ squates 20` save 20 squates in log file
